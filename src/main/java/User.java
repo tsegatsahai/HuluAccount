@@ -29,7 +29,6 @@ public class User {
             return false;
         }
         for(int i = 0; i < size; i++){
-            // System.out.println(i + ". " + userEmail.charAt(i));
             //if there is a space char, it's invalid
             if(email.charAt(i) == ' '){
                 System.out.println("Invalid: Email must not include white space");
